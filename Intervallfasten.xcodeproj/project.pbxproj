@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD67729D27623893003386F5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD67729C27623893003386F5 /* Persistence.swift */; };
+		BD6772A0276238D0003386F5 /* NewIntervalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD67729F276238D0003386F5 /* NewIntervalView.swift */; };
+		BD6772A3276238F1003386F5 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6772A2276238F1003386F5 /* CounterView.swift */; };
+		BD6772A62762391F003386F5 /* IntervalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6772A52762391F003386F5 /* IntervalModel.swift */; };
+		BD6772A927623950003386F5 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6772A827623950003386F5 /* CalendarView.swift */; };
+		BD6772AE27623A2C003386F5 /* IntervallFasten.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD6772AC27623A2C003386F5 /* IntervallFasten.xcdatamodeld */; };
+		BD6772B327624156003386F5 /* WeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6772B227624156003386F5 /* WeightView.swift */; };
 		BD9FC1BB271867BB007E0941 /* IntervallfastenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FC1BA271867BB007E0941 /* IntervallfastenApp.swift */; };
 		BD9FC1BD271867BB007E0941 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FC1BC271867BB007E0941 /* ContentView.swift */; };
 		BD9FC1BF271867BD007E0941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9FC1BE271867BD007E0941 /* Assets.xcassets */; };
@@ -14,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD67729C27623893003386F5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BD67729F276238D0003386F5 /* NewIntervalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewIntervalView.swift; sourceTree = "<group>"; };
+		BD6772A2276238F1003386F5 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		BD6772A52762391F003386F5 /* IntervalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalModel.swift; sourceTree = "<group>"; };
+		BD6772A827623950003386F5 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		BD6772AD27623A2C003386F5 /* IntervallFasten.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IntervallFasten.xcdatamodel; sourceTree = "<group>"; };
+		BD6772B227624156003386F5 /* WeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightView.swift; sourceTree = "<group>"; };
 		BD9FC1B7271867BB007E0941 /* Intervallfasten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intervallfasten.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9FC1BA271867BB007E0941 /* IntervallfastenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervallfastenApp.swift; sourceTree = "<group>"; };
 		BD9FC1BC271867BB007E0941 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +71,13 @@
 				BD9FC1BE271867BD007E0941 /* Assets.xcassets */,
 				BD9FC1C3271867BD007E0941 /* Info.plist */,
 				BD9FC1C0271867BD007E0941 /* Preview Content */,
+				BD67729C27623893003386F5 /* Persistence.swift */,
+				BD67729F276238D0003386F5 /* NewIntervalView.swift */,
+				BD6772A2276238F1003386F5 /* CounterView.swift */,
+				BD6772A52762391F003386F5 /* IntervalModel.swift */,
+				BD6772A827623950003386F5 /* CalendarView.swift */,
+				BD6772AC27623A2C003386F5 /* IntervallFasten.xcdatamodeld */,
+				BD6772B227624156003386F5 /* WeightView.swift */,
 			);
 			path = Intervallfasten;
 			sourceTree = "<group>";
@@ -138,8 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD67729D27623893003386F5 /* Persistence.swift in Sources */,
+				BD6772A927623950003386F5 /* CalendarView.swift in Sources */,
 				BD9FC1BD271867BB007E0941 /* ContentView.swift in Sources */,
+				BD6772A62762391F003386F5 /* IntervalModel.swift in Sources */,
+				BD6772A0276238D0003386F5 /* NewIntervalView.swift in Sources */,
 				BD9FC1BB271867BB007E0941 /* IntervallfastenApp.swift in Sources */,
+				BD6772B327624156003386F5 /* WeightView.swift in Sources */,
+				BD6772AE27623A2C003386F5 /* IntervallFasten.xcdatamodeld in Sources */,
+				BD6772A3276238F1003386F5 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +354,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD6772AC27623A2C003386F5 /* IntervallFasten.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD6772AD27623A2C003386F5 /* IntervallFasten.xcdatamodel */,
+			);
+			currentVersion = BD6772AD27623A2C003386F5 /* IntervallFasten.xcdatamodel */;
+			path = IntervallFasten.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BD9FC1AF271867BB007E0941 /* Project object */;
 }
